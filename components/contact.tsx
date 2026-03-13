@@ -96,7 +96,7 @@ export function Contact() {
                 Designed and built with <Heart className="inline w-4 h-4 text-accent animate-pulse" /> by Carlos Soto
               </p>
               <p className="text-xs text-muted-foreground/70">
-                © 2025 - Powered by passion for cloud architecture & innovation
+                © {new Date().getFullYear()} - Powered by passion for cloud architecture & innovation
               </p>
             </div>
           </footer>
